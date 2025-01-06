@@ -27,7 +27,7 @@ const loginLimiter = rateLimit({
 const connection = mysql.createConnection({
 	host     : 'localhost',
 	user     : 'root',
-	password : 'Gordon66',
+	password : '',
 	database : 'nodelogin'
 });
 
